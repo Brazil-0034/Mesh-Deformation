@@ -1,0 +1,46 @@
+/* I did this so that the canvas can fit the window */
+html, body {
+	overflow: hidden;
+	user-select: none;
+  padding: 0;
+  margin: 0;
+  font-family: Tahoma;
+  color: white;
+}
+
+canvas {
+	width: 100%; 
+	height: 100%;
+	padding: 0;
+}
+
+#overlay
+{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.field {
+  margin-bottom: 15px;
+  display: block;
+  color: white;
+  background: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#presets {
+  cursor: pointer;
+}
+
+#presets div {
+  margin-top: 5px;
+}
+
+#intro {
+  display: block;
+  margin-bottom: 25px;
+  width: 350px;
+}
